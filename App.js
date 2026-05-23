@@ -34,9 +34,9 @@ const Home = () => {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.hero}>
-        <Text style={styles.name}>Guilherme Piva</Text>
+        <Text style={styles.name}>Guilherme Tobias Piva</Text>
         <Text style={styles.subtitle}>
-          Desenvolvedor em formação focado em Back-end
+          Desenvolvedor em formação focado em Front-end e Back-end.
         </Text>
 
         <Pressable onPress={() => Linking.openURL('https://github.com/guipiva')}>
@@ -52,12 +52,12 @@ const Home = () => {
             <Text style={styles.statLabel}>Semestre</Text>
           </Pressable>
 
-          <Pressable onPress={() => Alert.alert('Experiência', '+2 anos estudando tecnologia')}>
-            <Text style={styles.statNumber}>+2</Text>
+          <Pressable onPress={() => Alert.alert('Experiência', '+3 anos estudando tecnologia')}>
+            <Text style={styles.statNumber}>+3</Text>
             <Text style={styles.statLabel}>Anos</Text>
           </Pressable>
 
-          <Pressable onPress={() => Alert.alert('Stack', 'React, Node, SQL Server, Python')}>
+          <Pressable onPress={() => Alert.alert('Stack', 'React, Node, SQL Server, Python, MongoDB, Javascript, Git, C, HTML, CSS')}>
             <Text style={styles.statNumber}>8+</Text>
             <Text style={styles.statLabel}>Skills</Text>
           </Pressable>
@@ -90,6 +90,8 @@ const About = () => {
           Sou Guilherme Tobias Piva, estudante de Desenvolvimento de Software
           Multiplataforma. Apaixonado por resolver problemas e criar soluções
           eficientes.
+          Experiência em projetos acadêmicos e pessoais, buscando sempre aprender novas tecnologias.
+          Gosto de buscar entender oque esta acontecendo com mercado e também dar enfase em entender as soft skills, pois acredito que elas são tão importantes quanto as hard skills.
         </Text>
 
         <Info icon="school" title="Formação" text="FATEC - 5º Semestre DSM" />
@@ -111,12 +113,32 @@ const Experience = () => {
       <SectionTitle title="Experiência" />
 
       <ExperienceCard
-        title="Site de Doações (carita)"
+        title="Site Informativo sobre a natureza(Eco-Viva)"
         role="Front-end developer"
-        period="2024-2025"
+        period="Fevereiro de 2024 - Junho de 2024"
         bullets={[
-          'Angular',
+          'HTML, CSS, JavaScript',
+          'Figma',
+        ]}
+      />
+
+      <ExperienceCard
+        title="Site de Doações de alimentos e roupas (Carita)"
+        role="Front-end developer e Back-end developer"
+        period="Agosto de 2024 - Dezembro de 2025"
+        bullets={[
+          'Angular, CSS, JavaScript, Figma, Git, GitHub, Trello, SQl Server',
           'Interface responsiva',
+        ]}
+      />
+
+      <ExperienceCard
+        title="Site de Gestao de energia gerada por biodigestores (Biogen)"
+        role="Front-end developer e Back-end developer"
+        period="Fevereiro de 2025 - Dezembro de 2025"
+        bullets={[
+          'Reactive Native, CSS, JavaScript, Figma, Git, GitHub, Trello, SQl Server, SQlite, MongoDB, SupaBase',
+          'Interface responsiva, agilidade no desenvolvimento, integração com banco de dados, metodologia ágil',
         ]}
       />
 
