@@ -87,27 +87,16 @@ const About = () => {
 
       <View style={styles.card}>
         <Text style={styles.text}>
-          Sou Guilherme Tobias Piva, estudante de Desenvolvimento de Software
-          Multiplataforma no 5º semestre pela FATEC. Tenho paixão por tecnologia
-          e por transformar ideias em produtos digitais que resolvem problemas
-          reais. Ao longo da minha jornada, participei de diversos projetos
-          acadêmicos e pessoais que reforçaram minhas habilidades em front-end,
-          back-end e na integração com bancos de dados.
+          Sou Guilherme Tobias Piva, tenho 22 anos e sou estudante de Desenvolvimento de Software Multiplataforma, atualmente cursando o 5º semestre na FATEC. Natural de Sorocaba - SP, sempre fui apaixonado por tecnologia e por sua capacidade de transformar ideias em soluções capazes de impactar positivamente a vida das pessoas. Ao longo da minha trajetória acadêmica e pessoal, participei de diversos projetos que contribuíram para o desenvolvimento das minhas habilidades técnicas, especialmente nas áreas de front-end, back-end e integração com bancos de dados relacionais e não relacionais.
+          Meu interesse pela tecnologia começou ainda na infância, impulsionado pelo contato com jogos online e computadores desde os 6 ou 7 anos de idade. Com o passar do tempo, a curiosidade sobre o funcionamento dos sistemas, softwares e aplicações foi crescendo, transformando um simples hobby em uma verdadeira paixão e, posteriormente, em uma escolha profissional. Desde então, venho buscando constantemente novos conhecimentos e acompanhando a evolução do setor para me manter atualizado com as tendências e tecnologias mais relevantes do mercado.
         </Text>
 
         <Text style={styles.text}>
-          Busco sempre aplicar boas práticas de desenvolvimento, como organização
-          de código, versionamento com Git, e uso de prototipação em Figma quando
-          necessário. Também valorizo muito as soft skills: comunicação clara,
-          trabalho em equipe e aprendizado contínuo.
+          Durante minha formação, procurei desenvolver não apenas conhecimentos técnicos, mas também uma visão ampla sobre o processo de desenvolvimento de software. Busco sempre aplicar boas práticas de programação, organização de código, arquitetura de projetos, versionamento utilizando Git e GitHub, além do uso de ferramentas de prototipação e design de interfaces, como o Figma, quando necessário. Acredito que a qualidade de um projeto está diretamente relacionada à atenção aos detalhes, à manutenção do código e à colaboração eficiente entre os membros da equipe.
         </Text>
 
         <Text style={styles.text}>
-          Me interesso por desenvolvimento mobile com React Native, arquiteturas de
-          APIs com Node.js, e otimização de consultas em bancos relacionais e
-          não relacionais. Meu objetivo é evoluir para posições de maior
-          responsabilidade na área de back-end, contribuindo com soluções
-          escaláveis e confiáveis.
+          Também valorizo muito as soft skills, entendendo que a comunicação clara, a proatividade, o trabalho em equipe e a capacidade de adaptação são fundamentais para o sucesso de qualquer profissional da área de tecnologia. Tenho facilidade em aprender novas ferramentas e metodologias, além de estar sempre aberto a desafios que contribuam para meu crescimento profissional e pessoal.
         </Text>
 
         <Info icon="school" title="Formação" text="FATEC - 5º Semestre DSM" />
@@ -130,10 +119,7 @@ const Experience = () => {
 
       <View style={{ paddingHorizontal: 20 }}>
         <Text style={styles.text}>
-          Aqui estão alguns dos projetos em que atuei. Cada projeto teve objetivos
-          claros: conscientizar sobre o meio ambiente, facilitar doações para
-          quem precisa e otimizar a gestão de biodigestores por meio de telas e
-          automações que ajudam na tomada de decisão.
+          A seguir, apresento alguns dos projetos em que atuei durante minha formação. Cada um deles foi desenvolvido com objetivos específicos e desafios únicos, proporcionando experiências valiosas tanto do ponto de vista técnico quanto colaborativo. Entre eles, destacam-se iniciativas voltadas à conscientização ambiental, plataformas para facilitar e incentivar doações destinadas a pessoas em situação de vulnerabilidade, além de sistemas para monitoramento e gestão de biodigestores, utilizando dashboards, automações e ferramentas de apoio à tomada de decisão. Esses projetos reforçaram minha capacidade de analisar problemas reais e desenvolver soluções tecnológicas alinhadas às necessidades dos usuários.
         </Text>
       </View>
 
@@ -182,15 +168,34 @@ const Skills = () => {
   const [selected, setSelected] = useState(null);
 
   const skills = [
-    { name: 'React', desc: 'Construção de interfaces web modernas.' },
-    { name: 'Node.js', desc: 'Criação de APIs REST.' },
-    { name: 'SQL Server', desc: 'Modelagem e otimização de banco de dados.' },
-    { name: 'Python', desc: 'Automação e scripts.' },
-    { name: 'React Native', desc: 'Aplicações móveis multiplataforma.' },
-    { name: 'JavaScript', desc: 'Linguagem principal para web.' },
-    { name: 'T-SQL', desc: 'Procedures e consultas avançadas.' },
-    { name: 'Git', desc: 'Versionamento de código.' },
-  ];
+  { name: 'React', desc: 'Construção de interfaces web modernas.' },
+  { name: 'Node.js', desc: 'Criação de APIs REST escaláveis.' },
+  { name: 'SQL Server', desc: 'Modelagem e otimização de banco de dados.' },
+  { name: 'Python', desc: 'Automação, scripts e manipulação de dados.' },
+  { name: 'React Native', desc: 'Desenvolvimento de aplicativos multiplataforma.' },
+  { name: 'JavaScript', desc: 'Linguagem principal para desenvolvimento web.' },
+  { name: 'TypeScript', desc: 'Desenvolvimento com tipagem estática e maior segurança.' },
+  { name: 'Angular', desc: 'Criação de aplicações SPA modernas.' },
+  { name: 'HTML5', desc: 'Estruturação semântica de páginas web.' },
+  { name: 'CSS3', desc: 'Estilização responsiva e animações.' },
+  { name: 'Bootstrap', desc: 'Framework para interfaces responsivas.' },
+  { name: 'MongoDB', desc: 'Banco de dados NoSQL orientado a documentos.' },
+  { name: 'T-SQL', desc: 'Procedures, triggers e consultas avançadas.' },
+  { name: 'Git', desc: 'Controle de versão e gerenciamento de código.' },
+  { name: 'GitHub', desc: 'Hospedagem e colaboração em projetos.' },
+  { name: 'Express.js', desc: 'Framework para construção de APIs com Node.js.' },
+  { name: 'REST API', desc: 'Desenvolvimento e integração de serviços web.' },
+  { name: 'Figma', desc: 'Prototipação e design de interfaces.' },
+  { name: 'Docker', desc: 'Containerização e padronização de ambientes.' },
+  { name: 'MySQL', desc: 'Banco de dados relacional amplamente utilizado.' },
+  { name: 'SQLite', desc: 'Banco de dados leve para aplicações locais.' },
+  { name: 'JWT', desc: 'Autenticação e autorização baseada em tokens.' },
+  { name: 'Postman', desc: 'Testes e documentação de APIs.' },
+  { name: 'Scrum', desc: 'Metodologia ágil para desenvolvimento de software.' },
+  { name: 'Kanban', desc: 'Gestão visual de tarefas e fluxos de trabalho.' },
+  { name: 'JSON', desc: 'Estrutura de troca de dados entre sistemas.' },
+  { name: 'Responsive Design', desc: 'Interfaces adaptáveis para diferentes dispositivos.' },
+];
 
   const openSkill = (skill) => {
     setSelected(skill);
