@@ -88,10 +88,26 @@ const About = () => {
       <View style={styles.card}>
         <Text style={styles.text}>
           Sou Guilherme Tobias Piva, estudante de Desenvolvimento de Software
-          Multiplataforma. Apaixonado por resolver problemas e criar soluções
-          eficientes.
-          Experiência em projetos acadêmicos e pessoais, buscando sempre aprender novas tecnologias.
-          Gosto de buscar entender oque esta acontecendo com mercado e também dar enfase em entender as soft skills, pois acredito que elas são tão importantes quanto as hard skills.
+          Multiplataforma no 5º semestre pela FATEC. Tenho paixão por tecnologia
+          e por transformar ideias em produtos digitais que resolvem problemas
+          reais. Ao longo da minha jornada, participei de diversos projetos
+          acadêmicos e pessoais que reforçaram minhas habilidades em front-end,
+          back-end e na integração com bancos de dados.
+        </Text>
+
+        <Text style={styles.text}>
+          Busco sempre aplicar boas práticas de desenvolvimento, como organização
+          de código, versionamento com Git, e uso de prototipação em Figma quando
+          necessário. Também valorizo muito as soft skills: comunicação clara,
+          trabalho em equipe e aprendizado contínuo.
+        </Text>
+
+        <Text style={styles.text}>
+          Me interesso por desenvolvimento mobile com React Native, arquiteturas de
+          APIs com Node.js, e otimização de consultas em bancos relacionais e
+          não relacionais. Meu objetivo é evoluir para posições de maior
+          responsabilidade na área de back-end, contribuindo com soluções
+          escaláveis e confiáveis.
         </Text>
 
         <Info icon="school" title="Formação" text="FATEC - 5º Semestre DSM" />
@@ -112,13 +128,23 @@ const Experience = () => {
     <ScrollView style={styles.container}>
       <SectionTitle title="Experiência" />
 
+      <View style={{ paddingHorizontal: 20 }}>
+        <Text style={styles.text}>
+          Aqui estão alguns dos projetos em que atuei. Cada projeto teve objetivos
+          claros: conscientizar sobre o meio ambiente, facilitar doações para
+          quem precisa e otimizar a gestão de biodigestores por meio de telas e
+          automações que ajudam na tomada de decisão.
+        </Text>
+      </View>
+
       <ExperienceCard
         title="Site Informativo sobre a natureza(Eco-Viva)"
         role="Front-end developer"
         period="Fevereiro de 2024 - Junho de 2024"
         bullets={[
-          'HTML, CSS, JavaScript',
-          'Figma',
+          'Objetivo: criar um portal informativo sobre conservação ambiental e práticas sustentáveis, voltado ao público geral e escolas.',
+          'Meu papel: desenvolvimento front-end da interface responsiva com HTML, CSS e JavaScript, garantindo leitura acessível e boa experiência em dispositivos móveis.',
+          'Resultados: implementação de páginas temáticas, guias educativos e seções interativas; prototipação e iterações em Figma para melhorar usabilidade.',
         ]}
       />
 
@@ -127,8 +153,9 @@ const Experience = () => {
         role="Front-end developer e Back-end developer"
         period="Agosto de 2024 - Dezembro de 2025"
         bullets={[
-          'Angular, CSS, JavaScript, Figma, Git, GitHub, Trello, SQl Server',
-          'Interface responsiva',
+          'Objetivo: facilitar o processo de doação de alimentos e roupas conectando doadores a ONGs e pontos de coleta.',
+          'Meu papel: construção das telas de doação, formulários e integração com rotas de API; também atuei na lógica de back-end para registro e consulta de doações.',
+          'Resultados: sistema de cadastro de doadores e pedidos, painel administrativo para gerenciamento de doações e integrações com banco SQL Server; colaboração em equipe com Git, GitHub e Trello.',
         ]}
       />
 
@@ -137,8 +164,9 @@ const Experience = () => {
         role="Front-end developer e Back-end developer"
         period="Fevereiro de 2025 - Dezembro de 2025"
         bullets={[
-          'Reactive Native, CSS, JavaScript, Figma, Git, GitHub, Trello, SQl Server, SQlite, MongoDB, SupaBase',
-          'Interface responsiva, agilidade no desenvolvimento, integração com banco de dados, metodologia ágil',
+          'Objetivo: criar uma solução web e mobile para monitorar e otimizar a geração de energia em biodigestores, com foco em coleta de dados e relatórios.',
+          'Meu papel: desenvolvimento do front-end em React Native para dispositivos móveis e do back-end para ingestão e sincronização de dados entre bancos locais (SQLite) e remotos (SQL Server / MongoDB).',
+          'Resultados: dashboards de monitoramento, relatórios automatizados e alertas; a solução ajudou a identificar ganhos de eficiência e reduzir o tempo de análise manual.',
         ]}
       />
 

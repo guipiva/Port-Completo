@@ -1,6 +1,8 @@
 {
   "name": "meu-portfolio",
   "version": "1.0.0",
+  "description": "Portfólio pessoal de Guilherme Tobias Piva — projetos, experiência e contato.",
+  "author": "Guilherme Tobias Piva",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
